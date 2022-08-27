@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { data } from './data.js';
+import { data } from '../data.js';
 
 export default function Question() {
-  return()
-  
+  console.log(data);
+  return <div></div>;
 }
