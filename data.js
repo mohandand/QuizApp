@@ -7,7 +7,7 @@ export const data = {
       options: [
         {
           id: 1,
-          description: "Hyper ee"
+          description: "Hyper ere"
         },
         {
           id: 2,
