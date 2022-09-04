@@ -11,7 +11,7 @@ export const data = {
         },
         {
           id: 2,
-          description: "Text ee"
+          description: "Text eet"
         },
         {
           id: 3,
