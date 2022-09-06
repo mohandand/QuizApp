@@ -6,9 +6,17 @@ export default function Question() {
   let allQues = question.map((item, index) => {
     return (
       <div>
-        {item.descrition}
+        <div>
+          {item.descrition}
+          <br />
+        </div>
         {item.options.map((option, index) => {
-          return <div></div>;
+          return (
+            <div>
+              <input type="radio" name={index} />
+              {option.description}
+            </div>
+          );
         })}
       </div>
     );
