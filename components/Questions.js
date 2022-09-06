@@ -7,7 +7,7 @@ export default function Question() {
     return (
       <div>
         {item.descrition}
-        {item.options.map(() => {
+        {item.options.map((option, index) => {
           return <div></div>;
         })}
       </div>
