@@ -6,7 +6,7 @@ export default function App() {
   
 
     <div>
-      <h1>Quiz APP</h1>
+      <h1>Quiz APPs</h1>
       <Question />
     </div>
   );
